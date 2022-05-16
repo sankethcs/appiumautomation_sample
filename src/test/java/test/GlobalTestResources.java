@@ -13,5 +13,5 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 @Getter
 public class GlobalTestResources {
-
+    /*sample text input for push test*/
 }
