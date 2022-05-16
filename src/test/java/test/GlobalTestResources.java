@@ -13,9 +13,5 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 @Getter
 public class GlobalTestResources {
-    private AppiumDriver<?> driver;
-    DesiredCapabilities capabilities = new DesiredCapabilities();
-    capabilities.setCapability("appPackage", "com.dreamplug.androidapp.dev”);
-    capabilities.setCapability("appActivity", "com.dreamplug.androidapp.SplashActivity");
-    capabilities.setCapability("noReset", true);
+
 }
